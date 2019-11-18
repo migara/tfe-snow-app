@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Terraform Cloud Team token</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_425435_terraform.tfc_team_token</name>
+        <read_roles>x_425435_terraform.admin</read_roles>
+        <suffix>tfc_team_token</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 01:00:48</sys_created_on>
+        <sys_id>5aa945b7dbc580100dc89c68db9619ab</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_425435_terraform.tfc_team_token</sys_name>
+        <sys_package display_value="Terraform Cloud" source="x_425435_terraform">5c505473db4580100dc89c68db96191a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Terraform Cloud">5c505473db4580100dc89c68db96191a</sys_scope>
+        <sys_update_name>sys_properties_5aa945b7dbc580100dc89c68db9619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 01:17:56</sys_updated_on>
+        <type>string</type>
+        <value/>
+        <write_roles>x_425435_terraform.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=5aa945b7dbc580100dc89c68db9619ab"/>
+</record_update>

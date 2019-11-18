@@ -5,37 +5,39 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
+        <filter table="x_425435_terraform_requests">u_requestorDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_requestor" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
-        <link_type>DIRECT</link_type>
+        <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Properties</mobile_title>
+        <mobile_title>My Requests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name/>
-        <order>300</order>
+        <name>x_425435_terraform_requests</name>
+        <order>250</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>system_properties_ui.do?sysparm_title=Terraform Cloud Settings&amp;sysparm_category=Terraform Cloud Settings</query>
+        <query/>
         <report/>
-        <roles>x_425435_terraform.admin</roles>
+        <roles>x_425435_terraform.request_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-17 21:24:19</sys_created_on>
+        <sys_created_on>2019-11-17 23:41:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>87b750f7db4580100dc89c68db961903</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Properties</sys_name>
+        <sys_id>d147387bdb8580100dc89c68db96192d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Terraform Cloud" source="x_425435_terraform">5c505473db4580100dc89c68db96191a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Terraform Cloud">5c505473db4580100dc89c68db96191a</sys_scope>
-        <sys_update_name>sys_app_module_87b750f7db4580100dc89c68db961903</sys_update_name>
+        <sys_update_name>sys_app_module_d147387bdb8580100dc89c68db96192d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-17 23:37:01</sys_updated_on>
+        <sys_updated_on>2019-11-17 23:41:09</sys_updated_on>
         <timeline_page/>
-        <title>Properties</title>
+        <title>My Requests</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
