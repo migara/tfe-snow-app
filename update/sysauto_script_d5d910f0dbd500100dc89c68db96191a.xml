@@ -11,14 +11,14 @@
         <run_period>1970-01-01 00:00:05</run_period>
         <run_start>2019-11-20 00:05:15</run_start>
         <run_time>1970-01-01 08:00:10</run_time>
-        <run_type>on_demand</run_type>
+        <run_type>periodically</run_type>
         <script><![CDATA[var tf_req_1 = new GlideRecord('x_425435_terraform_requests');
 tf_req_1.addQuery('u_tf_state=run');
 tf_req_1.query();
 
 while(tf_req_1.next()){
-	gs.info("tf_req_1 stringify= " + JSON.stringify(tf_req_1));
-	gs.info("tf_req_1 number = " + tf_req_1.getValue('number'));
+// 	gs.info("tf_req_1 stringify= " + JSON.stringify(tf_req_1));
+// 	gs.info("tf_req_1 number = " + tf_req_1.getValue('number'));
 	gs.info("tf_req_1 run_id = " + tf_req_1.getValue('u_tf_run_id'));
 	var r = new sn_ws.RESTMessageV2('x_425435_terraform.Terraform Runs', 'Get Run Details');
 	r.setStringParameterNoEscape('run_id', tf_req_1.u_tf_run_id);    
@@ -48,14 +48,14 @@ while(tf_req_1.next()){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-11-21 00:10:33</sys_created_on>
         <sys_id>d5d910f0dbd500100dc89c68db96191a</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>Apply</sys_name>
         <sys_package display_value="Terraform Cloud" source="x_425435_terraform">5c505473db4580100dc89c68db96191a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Terraform Cloud">5c505473db4580100dc89c68db96191a</sys_scope>
         <sys_update_name>sysauto_script_d5d910f0dbd500100dc89c68db96191a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-21 11:28:18</sys_updated_on>
+        <sys_updated_on>2019-11-21 12:30:08</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
