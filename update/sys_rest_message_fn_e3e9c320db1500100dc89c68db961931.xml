@@ -6,17 +6,22 @@
         <basic_auth_user/>
         <content>{&#13;
   "data": {&#13;
+    "type":"vars",&#13;
     "attributes": {&#13;
-      "name": "${number}",&#13;
-      "working-directory": "",&#13;
-      "vcs-repo": {&#13;
-        "identifier": "${spoke_vcs_repo}",&#13;
-        "oauth-token-id": "${vcs_oauth_token_id}",&#13;
-        "branch": "",&#13;
-        "default-branch": true&#13;
-      }&#13;
+      "key":"${key_name}",&#13;
+      "value":"${key_value}",&#13;
+      "category":"${var_type}",&#13;
+      "hcl":false,&#13;
+      "sensitive":${sensitive}&#13;
     },&#13;
-    "type": "workspaces"&#13;
+    "relationships": {&#13;
+      "workspace": {&#13;
+        "data": {&#13;
+          "id":"${workspace_id}",&#13;
+          "type":"workspaces"&#13;
+        }&#13;
+      }&#13;
+    }&#13;
   }&#13;
 }</content>
         <function_name>Create</function_name>
@@ -24,21 +29,21 @@
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>Create Workspace [ Create ]</qualified_name>
-        <rest_endpoint>https://app.terraform.io/api/v2/organizations/migara/workspaces</rest_endpoint>
-        <rest_message display_value="Create Workspace">666df07fdb8580100dc89c68db96195a</rest_message>
+        <qualified_name>Create Variables [ Create ]</qualified_name>
+        <rest_endpoint/>
+        <rest_message display_value="Create Variables">4ccf1ffbdb0d80100dc89c68db961946</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
-        <sys_created_by>fred.luddy</sys_created_by>
-        <sys_created_on>2019-11-18 00:42:38</sys_created_on>
-        <sys_id>8b658df3dbc580100dc89c68db9619d1</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-20 18:19:00</sys_created_on>
+        <sys_id>e3e9c320db1500100dc89c68db961931</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Create</sys_name>
         <sys_package display_value="Terraform Cloud" source="x_425435_terraform">5c505473db4580100dc89c68db96191a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Terraform Cloud">5c505473db4580100dc89c68db96191a</sys_scope>
-        <sys_update_name>sys_rest_message_fn_8b658df3dbc580100dc89c68db9619d1</sys_update_name>
+        <sys_update_name>sys_rest_message_fn_e3e9c320db1500100dc89c68db961931</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-20 22:04:03</sys_updated_on>
+        <sys_updated_on>2019-11-20 20:27:58</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>

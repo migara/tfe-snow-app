@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_tf_state" label="TF Runs" language="en" table="x_425435_terraform_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_tf_state</element>
+            <help/>
+            <hint/>
+            <label>TF Runs</label>
+            <language>en</language>
+            <name>x_425435_terraform_requests</name>
+            <plural>TF Runs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-21 00:21:51</sys_created_on>
+            <sys_id>6cad9cb4dbd500100dc89c68db9619b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>TF Runs</sys_name>
+            <sys_package display_value="Terraform Cloud" source="x_425435_terraform">5c505473db4580100dc89c68db96191a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Terraform Cloud">5c505473db4580100dc89c68db96191a</sys_scope>
+            <sys_update_name>sys_documentation_x_425435_terraform_requests_u_tf_state_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-21 00:21:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

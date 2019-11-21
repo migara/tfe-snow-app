@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Request" max_length="40" name="x_425435_terraform_requests" type="collection">
+    <element extends="task" label="Request" max_length="40" name="x_425435_terraform_requests" sizeclass="13" type="collection">
         <element label="New Date/Time" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_3" type="journal"/>
         <element label="Requestor" mandatory="true" max_length="32" name="u_requestor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Run ID" max_length="40" name="u_run_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="init" label="TF Runs" max_length="40" name="u_tf_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Applied" sequence="0" value="done"/>
+                <element inactive_on_update="false" label="Applying" sequence="1" value="apply_sent"/>
+                <element inactive_on_update="false" label="Plan" sequence="2" value="plan"/>
+                <element inactive_on_update="false" label="Run" sequence="3" value="run"/>
+                <element inactive_on_update="false" label="init" sequence="4" value="init"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Workspace" max_length="40" name="u_ws_id" type="string"/>
     </element>
 </database>
